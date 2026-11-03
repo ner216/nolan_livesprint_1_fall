@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="main-header-text">Welcome to the interactive reveal what's that animal UI</h1>
+        <h2 class="main-header-sub-text">Click the buttons below to reveal animal images</h2>
+    </header>
+    <section class="section-animal-grid">
+        <span class="animal-banner">
+            <div class="hidable-content">
+                <img src="assets/cow.jpg" alt="cow" class="animal-image" id="cow">
+                <div class="hide-animal-footer">
+                    <button class="btn btn-secondary" id="hide-cow-btn">Hide animal</button>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="show-cow-btn">Show Animal</button>
+        </span>
+        <span class="animal-banner">
+            <div class="hidable-content">
+                <img src="assets/dog.jpg" alt="dog" class="animal-image" id="dog">
+                <div class="hide-animal-footer">
+                    <button class="btn btn-secondary" id="hide-dog-btn">Hide animal</button>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="show-dog-btn">Show Animal</button>
+        </span>
+        <span class="animal-banner">
+            <div class="hidable-content">
+                <img src="assets/tabby-cat.jpg" alt="tabby cat" class="animal-image" id="cat">
+                <div class="hide-animal-footer">
+                    <button class="btn btn-secondary" id="hide-cat-btn">Hide animal</button>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="show-cat-btn">Show Animal</button>
+        </span>
+    </section>
+</body>
+</html>

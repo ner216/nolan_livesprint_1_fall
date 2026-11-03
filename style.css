@@ -1,0 +1,53 @@
+/* Reset browser styling */
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animal-image{
+    height: 250px;
+    width: 250px;
+}
+
+.section-animal-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.animal-banner{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    height: 50%;
+}
+
+.hidable-content{
+    padding: 0.5rem;
+    height: 700px;
+}
+
+.hide-animal-footer{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+
+.btn{
+    padding: 0.4rem;
+}
+
+
